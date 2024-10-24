@@ -1,0 +1,17 @@
+footer{
+    /* background-color: blue; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url('../../assets/./bg wave svg.png');
+}
+.socials{
+    height: 20px;
+}
+@media screen and (max-width: 660px) {
+    .foot{
+        padding-top: 10px;
+    }
+    .github{
+        margin-top: 8px;
+    }
+}

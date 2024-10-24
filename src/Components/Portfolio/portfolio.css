@@ -1,0 +1,15 @@
+/* sm:flex-col sm:mx-40 md:px-3 md: pl-4 sm:mx-40 md:pl-4 md:pr-4 sm:pl-4  sm:rounded-t-md sm:pt-6 sm:mx-40 sm:pt-6 md:pl-4*/
+@media screen  and (max-width: 980px){
+    .projects{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* padding: 0 250px; */
+    }
+    .project3 {
+        padding-top: 1.5rem;
+        border-top-left-radius:  10px;
+        border-top-right-radius:  10px;
+    }
+}

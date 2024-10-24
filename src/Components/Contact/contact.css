@@ -1,0 +1,11 @@
+/* md:flex-col */
+textarea{
+    resize: none;
+}
+@media screen and (max-width: 990px) {
+    .contact{
+        display: flex;
+        flex-direction: column;
+        /* margin: 0 50px; */
+    }
+}

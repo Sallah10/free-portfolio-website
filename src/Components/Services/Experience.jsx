@@ -8,10 +8,10 @@ import './experience.css'
 const Experience = () => {
   return (
     <>
-      <div id='skills flex flex-col items-center'>
+      <div id='skills' className='flex flex-col items-center'>
         <h1 className='flex justify-center text-3xl text-red-700 font-bold pt-6 pb-2 mt-4' > Skills </h1>
         <div className='stack flex justify-between'>
-          <div className='intros flex flex-col pl-5 pt-24 font-medium text-lg text-slate-800 md:pl-24'>
+          <div className='intros flex flex-col md:items-center pl-5 pt-24 font-medium text-lg text-slate-800 md:pl-24'>
             <p>I have vast experience in the following web technologies:</p>
             <div className='tools font-bold flex flex-row justify-evenly items-center pt-10 gap-10'>
               <div className='eachTools '>

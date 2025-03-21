@@ -15,17 +15,28 @@ const Header = () => {
   };
   return (
     <>
-      <nav className='flex items-center bg-white justify-between p-6'>
+      <nav className='flex top-0 overflow-hidden sticky w-full  bg-white justify-between p-6'>
         <div>
           <img src={navLogo} alt="navLogo" />
         </div>
-        <div className='menu-icon' onClick={toggleNavbar}>
-        <i className={isOpen ? 'fas fa-times' : 'fas fa-bars'}></i>
+        <div className='flex flex-col gap-3 items-center'>
+          <div className='menu-icon' onClick={toggleNavbar}>
+            <i className={isOpen ? 'fas fa-times' : 'fas fa-bars'}>
+            </i>
+          </div>
+          { isOpen ?  
+            <div className='flex flex-col gap-2'>
+              <a href="#skills">Skills</a>
+              <div className='Profile-gears flex text-red-500 '>
+                <img src={gears} alt="Profile-gears" className=''/>
+                <a href="#Projects">Projects</a>
+              </div>
+              <a href="#Contact">Contact Me</a>
+            </div> 
+          : ""}
         </div>
-        {/* flex justify-center gap-10 className={`nav-links ${isOpen ? 'block' : 'hidden'}`}*/}
-        <div className={isOpen ? 'nav-links' : 'hidden'}>
+        <div className='nav-links'>
           <a href="#skills">Skills</a>
-          {/* items-center justify-center  */}
           <div className='Profile-gears flex text-red-500 '>
             <img src={gears} alt="Profile-gears" className=''/>
             <a href="#Projects">Projects</a>
@@ -34,7 +45,7 @@ const Header = () => {
         </div>
       </nav>
       <div className='header flex justify-between px-11 pt-20'>
-        <div className='Bio pr-32'>
+        <div className='Bio lg:pr-32'>
           <h2>Hi👋, I'm a</h2>
           <h1>Software Developer</h1>
           <h3 className='intro'>I'm <span>John Doe,</span> a developer dedicated to making the world a better place one line of code at a time </h3>

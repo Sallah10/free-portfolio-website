@@ -1,4 +1,3 @@
-import React from 'react'
 import gears from '../../assets/./gears-svgrepo-com 1.svg'
 import Project1 from '../../assets/./Rectangle 5.png'
 import Project2 from '../../assets/./Rectangle 4.png'
@@ -9,7 +8,7 @@ import './portfolio.css'
 const Portfolio = () => {
   return (
     <>
-      <div className=' bg-blue-900 mt-60'>
+      <div className=' bg-blue-900 mt-60' id='Projects'>
         <div className='flex items-center text-white text-xl font-bold justify-center pt-10'>
             <img src={gears} alt="Profile-gears" className=''/>
             <h1>Projects</h1>

@@ -1,67 +1,66 @@
-.eachTools{
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
+.eachTools {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
 }
 @media screen and (max-width: 1200px) {
-    /* .header{
+  /* .header{
         justify-content: space-between;
     } */
 }
 @media screen and (max-width: 980px) {
-    .stack{
-        display: flex;
-        flex-direction: column;
-        margin-top: -55px;
-    }
-    .demo{
-        padding-bottom: 240px;
-        /* display: inline-block; */
-        align-items: center;
-        justify-content: center;
-        padding-left: 100px;
-        padding-top: 20px;
-    }
+  .stack {
+    display: flex;
+    flex-direction: column;
+    margin-top: -55px;
+  }
+  .demo {
+    padding-bottom: 240px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+  }
 }
 
 @media screen and (max-width: 660px) {
-    .stack{
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-        padding: auto;
-        /* align-items: center; */
-    }
-    .demo{
-        padding-top: 90px;
-    }
-    .intros{
-        margin-top: 70px;
-    }
-    .tools{
-        display: flex;
-        flex-direction: column;
-        padding-right: 70px;
-        padding-top: 10px;
-        gap: 30px;
-        margin-bottom: -180px;
-        justify-content: center;
-        align-items: center;
-    }
-    .eachTools{
-        display: flex;
-        padding-top: 30px;
-        gap: 100px;
-        justify-content: center;
-        align-items: center;
-        width: 500px;
-        height: 100%;
-        margin-bottom: 0%;
-    }
-    .bootstrap{
-        padding-top: 0 -16px -6px 0;
-    }
-}   
+  .stack {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding: auto;
+    /* align-items: center; */
+  }
+  .demo {
+    padding-top: 90px;
+    width: 300px;
+  }
+  .intros {
+    margin-top: 70px;
+  }
+  .tools {
+    display: flex;
+    flex-direction: column;
+    padding-right: 70px;
+    padding-top: 10px;
+    gap: 30px;
+    margin-bottom: -180px;
+    justify-content: center;
+    align-items: center;
+  }
+  .eachTools {
+    display: flex;
+    padding-top: 30px;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 100%;
+    margin-bottom: 0%;
+  }
+  .bootstrap {
+    padding-top: 0 -16px -6px 0;
+  }
+}

@@ -1,4 +1,3 @@
-import React from 'react'
 import gmail from '../../assets/./gmail-svgrepo-com 1.svg'
 import whatsapp from '../../assets/./whatsapp-svgrepo-com 1.svg'
 import linkedin from '../../assets/./linkedin-svgrepo-com 1.svg'
@@ -9,8 +8,8 @@ import './footer.css'
 const Footer = () => {
   return (
     <>
-      <footer className='flex justify-evenly text-white pb-20 pt-20 text-base font-bold' >
-        <div className='foot flex flex-col gap-5'>
+      <footer className='flex flex-col md:flex-row justify-evenly px-8 text-white pb-20 pt-20 text-base font-bold' >
+        <div className='foot flex flex-col gap-6 mt-5'>
           <h3>My social media links: </h3>
           <div className='flex justify-evenly gap-8 mb-5'>
             <img className='socials' src={linkedin} alt="linkedin" />
@@ -20,7 +19,7 @@ const Footer = () => {
           </div>
         </div>
         <div className='pt-3'>
-          <h3>More Projects I've worked on:</h3>
+          <h3>More Projects I&apos;ve worked on:</h3>
           <div className='github flex gap-2 items-center pt-3'>
             <img className='socials ' src={github} alt="github" /> <span className='text-blue-500'>@john-doe</span>on github
           </div>

@@ -21,8 +21,7 @@ const Header = () => {
         </div>
         <div className='flex flex-col gap-3 items-center'>
           <div className='menu-icon' onClick={toggleNavbar}>
-            <i className={isOpen ? 'fas fa-times' : 'fas fa-bars'}>
-            </i>
+            <i className={isOpen ? 'fas fa-times' : 'fas fa-bars'}></i>
           </div>
           { isOpen ?  
             <div className='flex flex-col gap-2'>
